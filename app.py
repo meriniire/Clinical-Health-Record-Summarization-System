@@ -16,7 +16,7 @@ def load_nlp_model():
     try:
         nlp = spacy.load("en_core_web_sm")
         nlp.add_pipe("negex", config={"ent_types": None})  # all entities
-        st.success(" NLP model loaded (en_core_web_sm).")
+        st.success("✅ NLP model loaded (en_core_web_sm).")
         return nlp
     except OSError:
         st.error("❌ Model not found. Install with:\n`python -m spacy download en_core_web_sm`")
@@ -39,17 +39,42 @@ DISEASES = [
 ]
 
 # ------------------------------------------------------------------
-# 3. Data loading & helpers
+# 3. Data loading & helpers – now handles missing files gracefully
 # ------------------------------------------------------------------
 @st.cache_data
 def load_data():
-    patients = pd.read_csv(os.path.join(DATA_DIR, "patients.csv"))
-    notes = pd.read_csv(os.path.join(DATA_DIR, "clinical_notes.csv"))
-    labs = pd.read_csv(os.path.join(DATA_DIR, "lab_results.csv"))
-    meds = pd.read_csv(os.path.join(DATA_DIR, "medications.csv"))
-    concepts = pd.read_csv(os.path.join(DATA_DIR, "extracted_concepts.csv")) if os.path.exists(os.path.join(DATA_DIR, "extracted_concepts.csv")) else pd.DataFrame(columns=["concept_id", "note_id", "concept_type", "concept_value", "confidence", "negation_flag"])
-    alerts = pd.read_csv(os.path.join(DATA_DIR, "alerts.csv"))
-    doctors = pd.read_csv(os.path.join(DATA_DIR, "doctors.csv")) if os.path.exists(os.path.join(DATA_DIR, "doctors.csv")) else pd.DataFrame(columns=["doctor_id", "title", "first_name", "last_name", "specialization", "phone", "email"])
+    # Create data directory if it doesn't exist
+    if not os.path.exists(DATA_DIR):
+        os.makedirs(DATA_DIR)
+    
+    # Define required columns for each DataFrame
+    patients_cols = ["patient_id", "hospital_number", "patient_name", "date_of_birth", "gender", "contact_info", "registration_date"]
+    notes_cols = ["note_id", "patient_id", "note_type", "note_date", "author", "author_id", "department", "note_text"]
+    labs_cols = ["patient_id", "test_name", "test_value", "reference_range", "test_date", "lab_notes"]
+    meds_cols = ["patient_id", "medication_name", "dosage", "frequency", "start_date", "end_date", "prescribing_doctor"]
+    concepts_cols = ["concept_id", "note_id", "concept_type", "concept_value", "confidence", "negation_flag"]
+    alerts_cols = ["alert_id", "patient_id", "alert_type", "alert_message", "acknowledged", "acknowledged_by", "acknowledged_date"]
+    doctors_cols = ["doctor_id", "title", "first_name", "last_name", "specialization", "phone", "email"]
+    
+    # Helper to read CSV or return empty DataFrame
+    def read_or_empty(filename, columns):
+        filepath = os.path.join(DATA_DIR, filename)
+        if os.path.exists(filepath) and os.path.getsize(filepath) > 0:
+            return pd.read_csv(filepath)
+        else:
+            empty_df = pd.DataFrame(columns=columns)
+            if not os.path.exists(filepath):
+                empty_df.to_csv(filepath, index=False)
+            return empty_df
+    
+    patients = read_or_empty("patients.csv", patients_cols)
+    notes = read_or_empty("clinical_notes.csv", notes_cols)
+    labs = read_or_empty("lab_results.csv", labs_cols)
+    meds = read_or_empty("medications.csv", meds_cols)
+    concepts = read_or_empty("extracted_concepts.csv", concepts_cols)
+    alerts = read_or_empty("alerts.csv", alerts_cols)
+    doctors = read_or_empty("doctors.csv", doctors_cols)
+    
     return patients, notes, labs, meds, concepts, alerts, doctors
 
 patients, notes, labs, meds, concepts, alerts, doctors = load_data()
