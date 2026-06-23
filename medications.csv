@@ -1,0 +1,2 @@
+medication_id,patient_id,medication_name,dosage,route,start_date,end_date,prescribing_provider
+4,103,Amoxicillin,500mg three times daily,oral,2026-03-01,2026-03-10,Dr. Adamu

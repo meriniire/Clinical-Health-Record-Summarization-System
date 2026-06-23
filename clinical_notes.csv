@@ -1,0 +1,236 @@
+note_id,patient_id,note_type,note_date,author,department,note_text,author_id
+5,107,Discharge Summary,2026-03-11 13:05,Dr. Okafor,Internal Medicine,still need continuous close watch,
+6,108,Discharge Summary,2026-03-12 07:10,Dr. Okafor,Internal Medicine,just discharged to be monitored for sometimes,
+7,108,Discharge Summary,2026-03-12 07:10,Dr. Okafor,Internal Medicine,just discharged to be monitored for sometimes,
+10,108,Progress Note,2026-03-12 08:44,Dr. BELLO,General Medicine,"dizziness, headache and stomach ache",1.0
+11,108,Progress Note,2026-03-12 08:46,Dr. BELLO,General Medicine,Complains of headache and dizziness,1.0
+12,107,Progress Note,2026-03-12 09:26,Dr. BELLO,General Medicine,"Patient reports mild incisional pain but denies nausea or vomiting. 
+Afebrile, vital",1.0
+13,108,Progress Note,2026-03-12 09:41,Dr. BELLO,General Medicine,"Patient reports substernal chest pressure radiating to left arm, lasting 5-10 minutes, relieved by rest. 
+No associated nausea or diaphoresis. 
+Past medical history: hypertension, hyperlipidemia. 
+Medications: lisinopril 20mg daily, atorvastatin 40mg daily. 
+ECG shows normal sinus rhythm with nonspecific ST changes. 
+Stress test planned. 
+Impression: likely stable angina. 
+Recommend starting aspirin 81mg and nitroglycerin as needed.
+Example 2: Neurology Consultation",1.0
+14,108,Progress Note,2026-03-12 12:59,Dr. BELLO,General Medicine,"Patient is a 72-year-old male with history of hypertension, type 2 diabetes, and coronary artery disease. 
+He presents with acute onset of substernal chest pressure radiating to left arm, associated with diaphoresis and nausea. 
+Symptoms began 2 hours ago while at rest. 
+No shortness of breath or palpitations. 
+Vital signs: BP 160/95, HR 110, RR 20, O2 sat 95%. 
+ECG shows ST elevations in leads V2-V4. 
+Troponin I elevated at 1.5 ng/mL. 
+Diagnosis: acute anterior STEMI. 
+Administered aspirin 324mg, nitroglycerin 0.4mg SL x2, and morphine 4mg IV. 
+Started on heparin infusion. 
+Plan for emergent cardiac catheterization. 
+Current home medications include lisinopril 20mg daily, metformin 1000mg twice daily, and atorvastatin 40mg daily.",1.0
+15,103,Progress Note,2026-03-16 14:08,Dr. BELLO,General Medicine,"Patient is a 67-year-old male with 40 pack-year smoking history and COPD. 
+He presents with persistent cough, hemoptysis, weight loss, and dyspnea on exertion. 
+Symptoms progressed over 6 months. 
+No fever. 
+Vital signs: BP 140/85, HR 88, RR 20, O2 sat 92%. 
+Chest CT shows 4 cm spiculated mass in right upper lobe with mediastinal lymphadenopathy. 
+Biopsy confirms adenocarcinoma of the lung. 
+Diagnosis: stage IIIA non-small cell lung cancer. 
+Referred to oncology for staging and treatment. 
+Home medications include tiotropium and albuterol.",1.0
+16,108,Progress Note,2026-03-16 14:09,Dr. BELLO,General Medicine,"Patient is a 67-year-old male with 40 pack-year smoking history and COPD. 
+He presents with persistent cough, hemoptysis, weight loss, and dyspnea on exertion. 
+Symptoms progressed over 6 months. 
+No fever. 
+Vital signs: BP 140/85, HR 88, RR 20, O2 sat 92%. 
+Chest CT shows 4 cm spiculated mass in right upper lobe with mediastinal lymphadenopathy. 
+Biopsy confirms adenocarcinoma of the lung. 
+Diagnosis: stage IIIA non-small cell lung cancer. 
+Referred to oncology for staging and treatment. 
+Home medications include tiotropium and albuterol.",1.0
+17,103,Progress Note,2026-03-16 14:15,Dr. BELLO,General Medicine,"Patient is a 68-year-old male with history of hypertension and atrial fibrillation (on warfarin). 
+He presents with sudden onset of right-sided weakness, facial droop, and slurred speech. 
+Symptoms began 1 hour ago. 
+No headache or vision changes. 
+Vital signs: BP 180/100, HR 88 irregular, RR 16, O2 sat 98%. 
+NIH Stroke Scale score 12. 
+CT head without contrast shows no hemorrhage. 
+Diagnosis: acute ischemic stroke (left MCA territory). 
+Administered IV tPA after INR 1.2. 
+Admitted to stroke unit for monitoring. 
+Home medications include warfarin (held), lisinopril, and metoprolol.",1.0
+18,103,Consultation Note,2026-03-16 14:16,Dr. ABIODUN,Family Medicine,"Patient is a 68-year-old male with history of hypertension and atrial fibrillation (on warfarin). 
+He presents with sudden onset of right-sided weakness, facial droop, and slurred speech. 
+Symptoms began 1 hour ago. 
+No headache or vision changes. 
+Vital signs: BP 180/100, HR 88 irregular, RR 16, O2 sat 98%. 
+NIH Stroke Scale score 12. 
+CT head without contrast shows no hemorrhage. 
+Diagnosis: acute ischemic stroke (left MCA territory). 
+Administered IV tPA after INR 1.2. 
+Admitted to stroke unit for monitoring. 
+Home medications include warfarin (held), lisinopril, and metoprolol.",2.0
+19,103,Consultation Note,2026-03-16 14:16,Dr. ABIODUN,Family Medicine,"Patient is a 68-year-old male with history of hypertension and atrial fibrillation (on warfarin). 
+He presents with sudden onset of right-sided weakness, facial droop, and slurred speech. 
+Symptoms began 1 hour ago. 
+No headache or vision changes. 
+Vital signs: BP 180/100, HR 88 irregular, RR 16, O2 sat 98%. 
+NIH Stroke Scale score 12. 
+CT head without contrast shows no hemorrhage. 
+Diagnosis: acute ischemic stroke (left MCA territory). 
+Administered IV tPA after INR 1.2. 
+Admitted to stroke unit for monitoring. 
+Home medications include warfarin (held), lisinopril, and metoprolol.",2.0
+20,103,Progress Note,2026-03-16 15:55,Dr. BELLO,General Medicine,"Patient is a 72-year-old male with history of hypertension, type 2 diabetes, and coronary artery disease. 
+He presents with acute onset of substernal chest pressure radiating to left arm, associated with diaphoresis and nausea. 
+Symptoms began 2 hours ago while at rest. 
+No shortness of breath or palpitations. 
+Vital signs: BP 160/95, HR 110, RR 20, O2 sat 95%. 
+ECG shows ST elevations in leads V2-V4. 
+Troponin I elevated at 1.5 ng/mL. 
+Diagnosis: acute anterior STEMI. 
+Administered aspirin 324mg, nitroglycerin 0.4mg SL x2, and morphine 4mg IV. 
+Started on heparin infusion. 
+Plan for emergent cardiac catheterization. 
+Current home medications include lisinopril 20mg daily, metformin 1000mg twice daily, and atorvastatin 40mg daily.",1.0
+21,103,Progress Note,2026-03-16 15:56,Dr. BELLO,General Medicine,"Patient is a 72-year-old male with history of hypertension, type 2 diabetes, and coronary artery disease. 
+He presents with acute onset of substernal chest pressure radiating to left arm, associated with diaphoresis and nausea. 
+Symptoms began 2 hours ago while at rest. 
+No shortness of breath or palpitations. 
+Vital signs: BP 160/95, HR 110, RR 20, O2 sat 95%. 
+ECG shows ST elevations in leads V2-V4. 
+Troponin I elevated at 1.5 ng/mL. 
+Diagnosis: acute anterior STEMI. 
+Administered aspirin 324mg, nitroglycerin 0.4mg SL x2, and morphine 4mg IV. 
+Started on heparin infusion. 
+Plan for emergent cardiac catheterization. 
+Current home medications include lisinopril 20mg daily, metformin 1000mg twice daily, and atorvastatin 40mg daily.",1.0
+22,103,Progress Note,2026-03-16 15:57,Dr. BELLO,General Medicine,"Patient presents with worsening shortness of breath and cough. 
+History of hypertension and type 2 diabetes. 
+No fever or chest pain. 
+Current medications include lisinopril and metformin. 
+Plan: continue current meds, add inhaler for symptomatic relief.",1.0
+23,103,Progress Note,2026-03-16 15:59,Dr. BELLO,General Medicine,"Patient presents with worsening shortness of breath and cough. 
+History of hypertension and type 2 diabetes. 
+No fever or chest pain. 
+Current medications include lisinopril and metformin. 
+Plan: continue current meds, add inhaler for symptomatic relief.",1.0
+24,103,Progress Note,2026-03-16 15:59,Dr. BELLO,General Medicine,"Patient presents with worsening shortness of breath and cough. 
+History of hypertension and type 2 diabetes. 
+No fever or chest pain. 
+Current medications include lisinopril and metformin. 
+Plan: continue current meds, add inhaler for symptomatic relief.",1.0
+25,111,Progress Note,2026-03-16 16:00,Dr. BELLO,General Medicine,"Patient presents with worsening shortness of breath and cough. 
+History of hypertension and type 2 diabetes. 
+No fever or chest pain. 
+Current medications include lisinopril and metformin. 
+Plan: continue current meds, add inhaler for symptomatic relief.",1.0
+26,111,Discharge Summary,2026-03-16 16:02,Dr. BELLO,General Medicine,"Patient presents with worsening shortness of breath and cough. 
+History of hypertension and type 2 diabetes. 
+No fever or chest pain. 
+Current medications include lisinopril and metformin. 
+Plan: continue current meds, add inhaler for symptomatic relief.",1.0
+27,111,Progress Note,2026-03-16 16:12,Dr. BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+28,112,Progress Note,2026-03-16 16:17,Dr. ABIODUN,Family Medicine,Patient has hypertension and diabetes. Prescribed lisinopril and metformin.,2.0
+29,112,Progress Note,2026-03-16 16:17,Dr. ABIODUN,Family Medicine,Patient has hypertension and diabetes. Prescribed lisinopril and metformin.,2.0
+30,103,Progress Note,2026-03-16 16:29,Dr. BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+31,112,Progress Note,2026-03-16 16:30,Dr. BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+32,112,Progress Note,2026-03-16 16:30,Dr. BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+33,112,Progress Note,2026-03-16 16:48,Dr. AUDU BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+34,113,Progress Note,2026-03-16 16:51,Dr. AUDU BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+35,112,Progress Note,2026-03-16 17:01,Dr. AUDU BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+36,114,Progress Note,2026-03-16 17:02,Dr. AUDU BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+37,114,Progress Note,2026-03-16 17:03,Dr. AUDU BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+38,114,Progress Note,2026-03-16 17:11,Dr. AUDU BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+39,115,Progress Note,2026-03-16 17:13,Dr. AUDU BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+40,115,Progress Note,2026-03-16 17:13,Dr. AUDU BELLO,General Medicine,"Patient is a 65-year-old male with history of hypertension and type 2 diabetes. 
+He presents for follow-up. Reports occasional headaches and mild fatigue. 
+Blood pressure today is 145/92, heart rate 78. 
+Lungs clear to auscultation. 
+No chest pain or shortness of breath. 
+Continue lisinopril 10mg daily and metformin 500mg twice daily. 
+Add amlodipine 5mg daily for better BP control. 
+Follow-up in 3 months.",1.0
+41,103,Progress,2026-06-23 10:28,Dr. BELLO,General Medicine,see the doctor next week,1.0
+42,116,Progress,2026-06-23 10:31,Dr. BELLO,General Medicine,"he is diabetic . he has headache, stomachache ",1.0
+43,116,Progress,2026-06-23 10:31,Dr. BELLO,General Medicine,"he is diabetic . he has headache, stomachache ",1.0
+44,116,Progress,2026-06-23 10:39,Dr. BELLO,General Medicine,"Consultation requested by Dr. Fatima Abubakar for Robert Johnson, a 50‑year‑old male with history of diabetes and hypertension. He reports mild dizziness but denies fainting or loss of consciousness. Blood pressure today is 145/90. He is not on any anticoagulants. I recommend starting lisinopril 5 mg daily and a follow-up HbA1c test at Central Lab on March 20, 2026. Next appointment with Dr. Abubakar in 4 weeks.""",1.0
+45,103,Progress,2026-06-23 10:42,Dr. BELLO,General Medicine,"Patient Mary Jones came to Shifaah Hospital on March 15, 2026, with mild headache. She denies any fever and was given paracetamol.""",1.0
+46,117,Progress,2026-06-23 10:44,Dr. BELLO,General Medicine,"Patient Mary Jones came to Shifaah Hospital on March 15, 2026, with mild headache. She denies any fever and was given paracetamol.""",1.0
+47,103,Progress,2026-06-23 11:20,Dr. BELLO,General Medicine,he has headache with administered paraceutamol,1.0

@@ -1,0 +1,474 @@
+concept_id,note_id,concept_type,concept_value,confidence,negation_flag
+9,5,Other,continuous,0.9,0
+10,6,Other,discharged,0.9,0
+11,6,Other,monitored,0.9,0
+12,7,Other,discharged,0.9,0
+13,7,Other,monitored,0.9,0
+29,10,Other,dizziness,0.9,0
+30,10,Other,headache,0.9,0
+31,10,Other,stomach ache,0.9,0
+32,11,Other,Complains,0.9,0
+33,11,Other,headache,0.9,0
+34,11,Other,dizziness,0.9,0
+35,12,Other,Patient reports,0.9,0
+36,12,Other,mild incisional pain,0.9,0
+37,12,Other,nausea or vomiting,0.9,0
+38,12,Other,Afebrile,0.9,0
+39,13,Other,Patient reports,0.9,0
+40,13,Other,substernal chest pressure,0.9,0
+41,13,Other,left arm,0.9,0
+42,13,Other,minutes,0.9,0
+43,13,Other,nausea,0.9,0
+44,13,Other,diaphoresis,0.9,0
+45,13,Other,medical history,0.9,0
+46,13,Other,hypertension,0.9,0
+47,13,Other,hyperlipidemia,0.9,0
+48,13,Other,Medications,0.9,0
+49,13,Other,lisinopril,0.9,0
+50,13,Other,daily,0.9,0
+51,13,Other,atorvastatin,0.9,0
+52,13,Other,daily,0.9,0
+53,13,Other,ECG,0.9,0
+54,13,Other,sinus rhythm,0.9,0
+55,13,Other,nonspecific,0.9,0
+56,13,Other,ST,0.9,0
+57,13,Other,changes,0.9,0
+58,13,Other,Stress test,0.9,0
+59,13,Other,planned,0.9,0
+60,13,Other,Impression,0.9,0
+61,13,Other,stable angina,0.9,0
+62,13,Other,aspirin,0.9,0
+63,13,Other,nitroglycerin,0.9,0
+64,13,Other,Neurology Consultation,0.9,0
+65,14,Other,Patient,0.9,0
+66,14,Other,male,0.9,0
+67,14,Other,history of hypertension,0.9,0
+68,14,Other,type 2 diabetes,0.9,0
+69,14,Other,coronary artery disease,0.9,0
+70,14,Other,acute onset,0.9,0
+71,14,Other,substernal chest pressure,0.9,0
+72,14,Other,left arm,0.9,0
+73,14,Other,associated with,0.9,0
+74,14,Other,diaphoresis,0.9,0
+75,14,Other,nausea,0.9,0
+76,14,Other,Symptoms,0.9,0
+77,14,Other,hours,0.9,0
+78,14,Other,No shortness of breath,0.9,0
+79,14,Other,palpitations,0.9,0
+80,14,Other,BP,0.9,0
+81,14,Other,HR,0.9,0
+82,14,Other,RR,0.9,0
+83,14,Other,O2,0.9,0
+84,14,Other,ECG,0.9,0
+85,14,Other,ST,0.9,0
+86,14,Other,elevations,0.9,0
+87,14,Other,V2-V4,0.9,0
+88,14,Other,Troponin I,0.9,0
+89,14,Other,elevated,0.9,0
+90,14,Other,Diagnosis,0.9,0
+91,14,Other,acute anterior STEMI,0.9,0
+92,14,Other,Administered,0.9,0
+93,14,Other,aspirin,0.9,0
+94,14,Other,nitroglycerin,0.9,0
+95,14,Other,SL,0.9,0
+96,14,Other,morphine,0.9,0
+97,14,Other,IV,0.9,0
+98,14,Other,heparin,0.9,0
+99,14,Other,infusion,0.9,0
+100,14,Other,Plan,0.9,0
+101,14,Other,emergent,0.9,0
+102,14,Other,cardiac catheterization,0.9,0
+103,14,Other,home medications,0.9,0
+104,14,Other,lisinopril,0.9,0
+105,14,Other,daily,0.9,0
+106,14,Other,metformin,0.9,0
+107,14,Other,daily,0.9,0
+108,14,Other,atorvastatin,0.9,0
+109,14,Other,daily,0.9,0
+110,15,Other,Patient,0.9,0
+111,15,Other,male,0.9,0
+112,15,Other,pack-year smoking history,0.9,0
+113,15,Other,COPD,0.9,0
+114,15,Other,persistent cough,0.9,0
+115,15,Other,hemoptysis,0.9,0
+116,15,Other,weight loss,0.9,0
+117,15,Other,dyspnea,0.9,0
+118,15,Other,exertion,0.9,0
+119,15,Other,Symptoms,0.9,0
+120,15,Other,months,0.9,0
+121,15,Other,No fever,0.9,0
+122,15,Other,BP,0.9,0
+123,15,Other,HR,0.9,0
+124,15,Other,RR,0.9,0
+125,15,Other,O2,0.9,0
+126,15,Other,Chest CT,0.9,0
+127,15,Other,spiculated mass,0.9,0
+128,15,Other,right upper lobe,0.9,0
+129,15,Other,mediastinal lymphadenopathy,0.9,0
+130,15,Other,Biopsy,0.9,0
+131,15,Other,adenocarcinoma,0.9,0
+132,15,Other,lung,0.9,0
+133,15,Other,Diagnosis,0.9,0
+134,15,Other,stage IIIA non-small cell lung cancer,0.9,0
+135,15,Other,Referred,0.9,0
+136,15,Other,oncology,0.9,0
+137,15,Other,staging,0.9,0
+138,15,Other,treatment,0.9,0
+139,15,Other,Home medications,0.9,0
+140,15,Other,tiotropium,0.9,0
+141,15,Other,albuterol,0.9,0
+142,16,Other,Patient,0.9,0
+143,16,Other,male,0.9,0
+144,16,Other,pack-year smoking history,0.9,0
+145,16,Other,COPD,0.9,0
+146,16,Other,persistent cough,0.9,0
+147,16,Other,hemoptysis,0.9,0
+148,16,Other,weight loss,0.9,0
+149,16,Other,dyspnea,0.9,0
+150,16,Other,exertion,0.9,0
+151,16,Other,Symptoms,0.9,0
+152,16,Other,months,0.9,0
+153,16,Other,No fever,0.9,0
+154,16,Other,BP,0.9,0
+155,16,Other,HR,0.9,0
+156,16,Other,RR,0.9,0
+157,16,Other,O2,0.9,0
+158,16,Other,Chest CT,0.9,0
+159,16,Other,spiculated mass,0.9,0
+160,16,Other,right upper lobe,0.9,0
+161,16,Other,mediastinal lymphadenopathy,0.9,0
+162,16,Other,Biopsy,0.9,0
+163,16,Other,adenocarcinoma,0.9,0
+164,16,Other,lung,0.9,0
+165,16,Other,Diagnosis,0.9,0
+166,16,Other,stage IIIA non-small cell lung cancer,0.9,0
+167,16,Other,Referred,0.9,0
+168,16,Other,oncology,0.9,0
+169,16,Other,staging,0.9,0
+170,16,Other,treatment,0.9,0
+171,16,Other,Home medications,0.9,0
+172,16,Other,tiotropium,0.9,0
+173,16,Other,albuterol,0.9,0
+174,17,Other,Patient,0.9,0
+175,17,Other,male,0.9,0
+176,17,Other,history of hypertension,0.9,0
+177,17,Other,atrial fibrillation,0.9,0
+178,17,Other,warfarin,0.9,0
+179,17,Other,sudden onset,0.9,0
+180,17,Other,right-sided weakness,0.9,0
+181,17,Other,facial droop,0.9,0
+182,17,Other,slurred speech,0.9,0
+183,17,Other,Symptoms,0.9,0
+184,17,Other,hour,0.9,0
+185,17,Other,No headache,0.9,0
+186,17,Other,vision changes,0.9,0
+187,17,Other,BP,0.9,0
+188,17,Other,HR,0.9,0
+189,17,Other,irregular,0.9,0
+190,17,Other,RR,0.9,0
+191,17,Other,O2,0.9,0
+192,17,Other,NIH Stroke Scale score,0.9,0
+193,17,Other,CT head,0.9,0
+194,17,Other,hemorrhage,0.9,0
+195,17,Other,Diagnosis,0.9,0
+196,17,Other,acute ischemic stroke,0.9,0
+197,17,Other,left MCA,0.9,0
+198,17,Other,territory,0.9,0
+199,17,Other,Administered IV,0.9,0
+200,17,Other,tPA,0.9,0
+201,17,Other,INR,0.9,0
+202,17,Other,Admitted,0.9,0
+203,17,Other,stroke,0.9,0
+204,17,Other,monitoring,0.9,0
+205,17,Other,Home medications,0.9,0
+206,17,Other,warfarin,0.9,0
+207,17,Other,lisinopril,0.9,0
+208,17,Other,metoprolol,0.9,0
+209,18,Other,Patient,0.9,0
+210,18,Other,male,0.9,0
+211,18,Other,history of hypertension,0.9,0
+212,18,Other,atrial fibrillation,0.9,0
+213,18,Other,warfarin,0.9,0
+214,18,Other,sudden onset,0.9,0
+215,18,Other,right-sided weakness,0.9,0
+216,18,Other,facial droop,0.9,0
+217,18,Other,slurred speech,0.9,0
+218,18,Other,Symptoms,0.9,0
+219,18,Other,hour,0.9,0
+220,18,Other,No headache,0.9,0
+221,18,Other,vision changes,0.9,0
+222,18,Other,BP,0.9,0
+223,18,Other,HR,0.9,0
+224,18,Other,irregular,0.9,0
+225,18,Other,RR,0.9,0
+226,18,Other,O2,0.9,0
+227,18,Other,NIH Stroke Scale score,0.9,0
+228,18,Other,CT head,0.9,0
+229,18,Other,hemorrhage,0.9,0
+230,18,Other,Diagnosis,0.9,0
+231,18,Other,acute ischemic stroke,0.9,0
+232,18,Other,left MCA,0.9,0
+233,18,Other,territory,0.9,0
+234,18,Other,Administered IV,0.9,0
+235,18,Other,tPA,0.9,0
+236,18,Other,INR,0.9,0
+237,18,Other,Admitted,0.9,0
+238,18,Other,stroke,0.9,0
+239,18,Other,monitoring,0.9,0
+240,18,Other,Home medications,0.9,0
+241,18,Other,warfarin,0.9,0
+242,18,Other,lisinopril,0.9,0
+243,18,Other,metoprolol,0.9,0
+244,19,Other,Patient,0.9,0
+245,19,Other,male,0.9,0
+246,19,Other,history of hypertension,0.9,0
+247,19,Other,atrial fibrillation,0.9,0
+248,19,Other,warfarin,0.9,0
+249,19,Other,sudden onset,0.9,0
+250,19,Other,right-sided weakness,0.9,0
+251,19,Other,facial droop,0.9,0
+252,19,Other,slurred speech,0.9,0
+253,19,Other,Symptoms,0.9,0
+254,19,Other,hour,0.9,0
+255,19,Other,No headache,0.9,0
+256,19,Other,vision changes,0.9,0
+257,19,Other,BP,0.9,0
+258,19,Other,HR,0.9,0
+259,19,Other,irregular,0.9,0
+260,19,Other,RR,0.9,0
+261,19,Other,O2,0.9,0
+262,19,Other,NIH Stroke Scale score,0.9,0
+263,19,Other,CT head,0.9,0
+264,19,Other,hemorrhage,0.9,0
+265,19,Other,Diagnosis,0.9,0
+266,19,Other,acute ischemic stroke,0.9,0
+267,19,Other,left MCA,0.9,0
+268,19,Other,territory,0.9,0
+269,19,Other,Administered IV,0.9,0
+270,19,Other,tPA,0.9,0
+271,19,Other,INR,0.9,0
+272,19,Other,Admitted,0.9,0
+273,19,Other,stroke,0.9,0
+274,19,Other,monitoring,0.9,0
+275,19,Other,Home medications,0.9,0
+276,19,Other,warfarin,0.9,0
+277,19,Other,lisinopril,0.9,0
+278,19,Other,metoprolol,0.9,0
+279,20,Other,Patient,0.9,0
+280,20,Other,male,0.9,0
+281,20,Other,history of hypertension,0.9,0
+282,20,Other,type 2 diabetes,0.9,0
+283,20,Other,coronary artery disease,0.9,0
+284,20,Other,acute onset,0.9,0
+285,20,Other,substernal chest pressure,0.9,0
+286,20,Other,left arm,0.9,0
+287,20,Other,associated with,0.9,0
+288,20,Other,diaphoresis,0.9,0
+289,20,Other,nausea,0.9,0
+290,20,Other,Symptoms,0.9,0
+291,20,Other,hours,0.9,0
+292,20,Other,No shortness of breath,0.9,0
+293,20,Other,palpitations,0.9,0
+294,20,Other,BP,0.9,0
+295,20,Other,HR,0.9,0
+296,20,Other,RR,0.9,0
+297,20,Other,O2,0.9,0
+298,20,Other,ECG,0.9,0
+299,20,Other,ST,0.9,0
+300,20,Other,elevations,0.9,0
+301,20,Other,V2-V4,0.9,0
+302,20,Other,Troponin I,0.9,0
+303,20,Other,elevated,0.9,0
+304,20,Other,Diagnosis,0.9,0
+305,20,Other,acute anterior STEMI,0.9,0
+306,20,Other,Administered,0.9,0
+307,20,Other,aspirin,0.9,0
+308,20,Other,nitroglycerin,0.9,0
+309,20,Other,SL,0.9,0
+310,20,Other,morphine,0.9,0
+311,20,Other,IV,0.9,0
+312,20,Other,heparin,0.9,0
+313,20,Other,infusion,0.9,0
+314,20,Other,Plan,0.9,0
+315,20,Other,emergent,0.9,0
+316,20,Other,cardiac catheterization,0.9,0
+317,20,Other,home medications,0.9,0
+318,20,Other,lisinopril,0.9,0
+319,20,Other,daily,0.9,0
+320,20,Other,metformin,0.9,0
+321,20,Other,daily,0.9,0
+322,20,Other,atorvastatin,0.9,0
+323,20,Other,daily,0.9,0
+324,21,Other,Patient,0.9,0
+325,21,Other,male,0.9,0
+326,21,Other,history of hypertension,0.9,0
+327,21,Other,type 2 diabetes,0.9,0
+328,21,Other,coronary artery disease,0.9,0
+329,21,Other,acute onset,0.9,0
+330,21,Other,substernal chest pressure,0.9,0
+331,21,Other,left arm,0.9,0
+332,21,Other,associated with,0.9,0
+333,21,Other,diaphoresis,0.9,0
+334,21,Other,nausea,0.9,0
+335,21,Other,Symptoms,0.9,0
+336,21,Other,hours,0.9,0
+337,21,Other,No shortness of breath,0.9,0
+338,21,Other,palpitations,0.9,0
+339,21,Other,BP,0.9,0
+340,21,Other,HR,0.9,0
+341,21,Other,RR,0.9,0
+342,21,Other,O2,0.9,0
+343,21,Other,ECG,0.9,0
+344,21,Other,ST,0.9,0
+345,21,Other,elevations,0.9,0
+346,21,Other,V2-V4,0.9,0
+347,21,Other,Troponin I,0.9,0
+348,21,Other,elevated,0.9,0
+349,21,Other,Diagnosis,0.9,0
+350,21,Other,acute anterior STEMI,0.9,0
+351,21,Other,Administered,0.9,0
+352,21,Other,aspirin,0.9,0
+353,21,Other,nitroglycerin,0.9,0
+354,21,Other,SL,0.9,0
+355,21,Other,morphine,0.9,0
+356,21,Other,IV,0.9,0
+357,21,Other,heparin,0.9,0
+358,21,Other,infusion,0.9,0
+359,21,Other,Plan,0.9,0
+360,21,Other,emergent,0.9,0
+361,21,Other,cardiac catheterization,0.9,0
+362,21,Other,home medications,0.9,0
+363,21,Other,lisinopril,0.9,0
+364,21,Other,daily,0.9,0
+365,21,Other,metformin,0.9,0
+366,21,Other,daily,0.9,0
+367,21,Other,atorvastatin,0.9,0
+368,21,Other,daily,0.9,0
+369,22,Other,Patient,0.9,0
+370,22,Other,worsening,0.9,0
+371,22,Other,breath,0.9,0
+372,22,Other,cough,0.9,0
+373,22,Other,hypertension,0.9,0
+374,22,Other,type 2 diabetes,0.9,0
+375,22,Other,No fever,0.9,0
+376,22,Other,chest pain,0.9,0
+377,22,Other,medications,0.9,0
+378,22,Other,lisinopril,0.9,0
+379,22,Other,metformin,0.9,0
+380,22,Other,Plan,0.9,0
+381,22,Other,inhaler,0.9,0
+382,22,Other,symptomatic,0.9,0
+383,22,Other,relief,0.9,0
+384,23,Other,Patient,0.9,0
+385,23,Other,worsening,0.9,0
+386,23,Other,breath,0.9,0
+387,23,Other,cough,0.9,0
+388,23,Other,hypertension,0.9,0
+389,23,Other,type 2 diabetes,0.9,0
+390,23,Other,No fever,0.9,0
+391,23,Other,chest pain,0.9,0
+392,23,Other,medications,0.9,0
+393,23,Other,lisinopril,0.9,0
+394,23,Other,metformin,0.9,0
+395,23,Other,Plan,0.9,0
+396,23,Other,inhaler,0.9,0
+397,23,Other,symptomatic,0.9,0
+398,23,Other,relief,0.9,0
+399,24,Other,Patient,0.9,0
+400,24,Other,worsening,0.9,0
+401,24,Other,breath,0.9,0
+402,24,Other,cough,0.9,0
+403,24,Other,hypertension,0.9,0
+404,24,Other,type 2 diabetes,0.9,0
+405,24,Other,No fever,0.9,0
+406,24,Other,chest pain,0.9,0
+407,24,Other,medications,0.9,0
+408,24,Other,lisinopril,0.9,0
+409,24,Other,metformin,0.9,0
+410,24,Other,Plan,0.9,0
+411,24,Other,inhaler,0.9,0
+412,24,Other,symptomatic,0.9,0
+413,24,Other,relief,0.9,0
+414,25,Other,Patient,0.9,0
+415,25,Other,worsening,0.9,0
+416,25,Other,breath,0.9,0
+417,25,Other,cough,0.9,0
+418,25,Other,hypertension,0.9,0
+419,25,Other,type 2 diabetes,0.9,0
+420,25,Other,No fever,0.9,0
+421,25,Other,chest pain,0.9,0
+422,25,Other,medications,0.9,0
+423,25,Other,lisinopril,0.9,0
+424,25,Other,metformin,0.9,0
+425,25,Other,Plan,0.9,0
+426,25,Other,inhaler,0.9,0
+427,25,Other,symptomatic,0.9,0
+428,25,Other,relief,0.9,0
+429,26,Other,Patient,0.9,0
+430,26,Other,worsening,0.9,0
+431,26,Other,breath,0.9,0
+432,26,Other,cough,0.9,0
+433,26,Other,hypertension,0.9,0
+434,26,Other,type 2 diabetes,0.9,0
+435,26,Other,No fever,0.9,0
+436,26,Other,chest pain,0.9,0
+437,26,Other,medications,0.9,0
+438,26,Other,lisinopril,0.9,0
+439,26,Other,metformin,0.9,0
+440,26,Other,Plan,0.9,0
+441,26,Other,inhaler,0.9,0
+442,26,Other,symptomatic,0.9,0
+443,26,Other,relief,0.9,0
+444,27,Other,Patient,0.9,0
+445,27,Other,male,0.9,0
+446,27,Other,history of hypertension,0.9,0
+447,27,Other,type 2 diabetes,0.9,0
+448,27,Other,follow-up,0.9,0
+449,27,Other,Reports,0.9,0
+450,27,Other,occasional headaches,0.9,0
+451,27,Other,mild fatigue,0.9,0
+452,27,Other,Blood pressure,0.9,0
+453,27,Other,heart rate,0.9,0
+454,27,Other,Lungs,0.9,0
+455,27,Other,auscultation,0.9,0
+456,27,Other,shortness of breath,0.9,0
+457,27,Other,lisinopril,0.9,0
+458,27,Other,daily,0.9,0
+459,27,Other,metformin,0.9,0
+460,27,Other,daily,0.9,0
+461,27,Other,amlodipine,0.9,0
+462,27,Other,daily,0.9,0
+463,27,Other,BP control,0.9,0
+464,27,Other,Follow-up,0.9,0
+465,27,Other,months,0.9,0
+466,28,Other,Patient,0.9,0
+467,28,Other,hypertension,0.9,0
+468,28,Other,diabetes,0.9,0
+469,28,Other,Prescribed,0.9,0
+470,28,Other,lisinopril,0.9,0
+471,28,Other,metformin,0.9,0
+472,29,Other,Patient,0.9,0
+473,29,Other,hypertension,0.9,0
+474,29,Other,diabetes,0.9,0
+475,29,Other,Prescribed,0.9,0
+476,29,Other,lisinopril,0.9,0
+477,29,Other,metformin,0.9,0
+478,41,DATE,next week,0.8,0
+479,44,PERSON,Fatima Abubakar,0.8,0
+480,44,PERSON,Robert Johnson,0.8,0
+481,44,CARDINAL,50‑year‑old,0.8,0
+482,44,DATE,today,0.8,0
+483,44,DATE,145/90,0.8,0
+484,44,DATE,lisinopril 5,0.8,0
+485,44,DATE,daily,0.8,0
+486,44,LOC,Central Lab,0.8,0
+487,44,DATE,"March 20, 2026",0.8,0
+488,44,PERSON,Abubakar,0.8,0
+489,44,DATE,4 weeks,0.8,0
+490,45,PERSON,Mary Jones,0.8,0
+491,45,ORG,Shifaah Hospital,0.8,0
+492,45,DATE,"March 15, 2026",0.8,0
+493,46,PERSON,Mary Jones,0.8,0
+494,46,ORG,Shifaah Hospital,0.8,0
+495,46,DATE,"March 15, 2026",0.8,0
+496,47,Diagnosis,Headache,0.9,0
