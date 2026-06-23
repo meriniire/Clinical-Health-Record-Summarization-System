@@ -9,28 +9,30 @@ st.set_page_config(page_title="General Hospital Koton Karfe, Kogi State", layout
 DATA_DIR = "data"
 
 # ------------------------------------------------------------------
-# 1. Load (or download) the simplified model (en_core_web_sm)
+# 1. Robust model loading with auto-download
 # ------------------------------------------------------------------
 @st.cache_resource
 def load_nlp_model():
+    model_name = "en_core_web_sm"
     try:
-        nlp = spacy.load("en_core_web_sm")
-        nlp.add_pipe("negex", config={"ent_types": None})  # all entities
-        st.success("✅ NLP model loaded (en_core_web_sm).")
-        return nlp
-    except OSError:
-        st.warning("⚠️ Model not found. Attempting to download en_core_web_sm ...")
-        try:
+        # Check if model is already installed
+        if spacy.util.is_package(model_name):
+            nlp = spacy.load(model_name)
+            nlp.add_pipe("negex", config={"ent_types": None})
+            st.success("✅ NLP model loaded (en_core_web_sm).")
+            return nlp
+        else:
+            st.warning(f"⚠️ Model '{model_name}' not found. Attempting to download ...")
             import spacy.cli
-            spacy.cli.download("en_core_web_sm")
-            nlp = spacy.load("en_core_web_sm")
+            spacy.cli.download(model_name)
+            nlp = spacy.load(model_name)
             nlp.add_pipe("negex", config={"ent_types": None})
             st.success("✅ Model downloaded and loaded successfully.")
             return nlp
-        except Exception as e:
-            st.error(f"❌ Failed to download model: {e}")
-            st.info("Please install manually: `python -m spacy download en_core_web_sm`")
-            return None
+    except Exception as e:
+        st.error(f"❌ Failed to load or download model: {e}")
+        st.info("Please try installing manually:\n`python -m spacy download en_core_web_sm`")
+        return None
 
 nlp = load_nlp_model()
 
@@ -49,7 +51,7 @@ DISEASES = [
 ]
 
 # ------------------------------------------------------------------
-# 3. Data loading & helpers – now handles missing files gracefully
+# 3. Data loading & helpers – handles missing files gracefully
 # ------------------------------------------------------------------
 @st.cache_data
 def load_data():
