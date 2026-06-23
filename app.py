@@ -9,7 +9,7 @@ st.set_page_config(page_title="General Hospital Koton Karfe, Kogi State", layout
 DATA_DIR = "data"
 
 # ------------------------------------------------------------------
-# 1. Load only the simplified model (en_core_web_sm)
+# 1. Load (or download) the simplified model (en_core_web_sm)
 # ------------------------------------------------------------------
 @st.cache_resource
 def load_nlp_model():
@@ -19,8 +19,18 @@ def load_nlp_model():
         st.success("✅ NLP model loaded (en_core_web_sm).")
         return nlp
     except OSError:
-        st.error("❌ Model not found. Install with:\n`python -m spacy download en_core_web_sm`")
-        return None
+        st.warning("⚠️ Model not found. Attempting to download en_core_web_sm ...")
+        try:
+            import spacy.cli
+            spacy.cli.download("en_core_web_sm")
+            nlp = spacy.load("en_core_web_sm")
+            nlp.add_pipe("negex", config={"ent_types": None})
+            st.success("✅ Model downloaded and loaded successfully.")
+            return nlp
+        except Exception as e:
+            st.error(f"❌ Failed to download model: {e}")
+            st.info("Please install manually: `python -m spacy download en_core_web_sm`")
+            return None
 
 nlp = load_nlp_model()
 
@@ -131,7 +141,6 @@ def extract_clinical_concepts(note_text, note_id):
     # 4a. Extract all spaCy named entities (PERSON, DATE, ORG, etc.)
     for ent in doc.ents:
         negated = ent._.negex if hasattr(ent._, "negex") else False
-        # Keep the original label (e.g., "PERSON", "DATE")
         concept_type = ent.label_
         new_concepts.append({
             "concept_id": next_id,
@@ -145,23 +154,18 @@ def extract_clinical_concepts(note_text, note_id):
 
     # 4b. Rule‑based detection of drugs and diseases
     note_lower = note_text.lower()
-    # Helper to check negation within 3 words before a term
     def is_negated(term, text):
-        # Find the position of the term in the text
         idx = text.find(term)
         if idx == -1:
             return False
-        # Get the preceding 30 characters (approx 3 words)
         start = max(0, idx - 30)
         preceding = text[start:idx]
-        # Look for negation markers
         neg_words = ["no", "not", "denies", "without", "never"]
         for word in neg_words:
             if word in preceding.split():
                 return True
         return False
 
-    # Drugs
     for drug in DRUGS:
         if drug in note_lower:
             negated = is_negated(drug, note_lower)
@@ -175,7 +179,6 @@ def extract_clinical_concepts(note_text, note_id):
             })
             next_id += 1
 
-    # Diseases
     for disease in DISEASES:
         if disease in note_lower:
             negated = is_negated(disease, note_lower)
@@ -189,7 +192,7 @@ def extract_clinical_concepts(note_text, note_id):
             })
             next_id += 1
 
-    # 4c. Remove duplicates (keep first occurrence)
+    # Remove duplicates
     seen = set()
     unique = []
     for c in new_concepts:
@@ -260,7 +263,6 @@ if menu == "Patient Search":
             st.subheader("Overview")
             for _, note in get_notes(p["patient_id"]).head(2).iterrows():
                 st.markdown(f"**{note['note_type']}** {note['note_date']}  \n{note['note_text'][:200]}...")
-            # Show active problems and current medications
             diag = get_concepts(p["patient_id"], "Diagnosis")
             diag = diag[diag["negation_flag"] == False]
             meds_concepts = get_concepts(p["patient_id"], "Medication")
@@ -276,7 +278,6 @@ if menu == "Patient Search":
             if all_concepts.empty:
                 st.info("No concepts found.")
             else:
-                # Group by type
                 for ctype in all_concepts["concept_type"].unique():
                     st.markdown(f"**{ctype}**")
                     for _, row in all_concepts[all_concepts["concept_type"] == ctype].iterrows():
